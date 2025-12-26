@@ -1,0 +1,477 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|solutionrelative:kemar.gsi.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|solutionrelative:kemar.gsi.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.model\\response\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|solutionrelative:kemar.gsi.model\\response\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.model\\response\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|solutionrelative:kemar.gsi.model\\response\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.model\\request\\orderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|solutionrelative:kemar.gsi.model\\request\\orderitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.model\\request\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|solutionrelative:kemar.gsi.model\\request\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301E7421-CC21-483A-B6E0-193AFCB887C5}|Kemar.GSI.Business\\Kemar.GSI.Business.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.business\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301E7421-CC21-483A-B6E0-193AFCB887C5}|Kemar.GSI.Business\\Kemar.GSI.Business.csproj|solutionrelative:kemar.gsi.business\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.api\\helper\\mapperprofiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|solutionrelative:kemar.gsi.api\\helper\\mapperprofiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.repository\\entity\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|solutionrelative:kemar.gsi.repository\\entity\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.api\\helper\\common\\resultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|solutionrelative:kemar.gsi.api\\helper\\common\\resultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.api\\helper\\common\\commonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|solutionrelative:kemar.gsi.api\\helper\\common\\commonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301E7421-CC21-483A-B6E0-193AFCB887C5}|Kemar.GSI.Business\\Kemar.GSI.Business.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.business\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301E7421-CC21-483A-B6E0-193AFCB887C5}|Kemar.GSI.Business\\Kemar.GSI.Business.csproj|solutionrelative:kemar.gsi.business\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|solutionrelative:kemar.gsi.api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.model\\helper\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|solutionrelative:kemar.gsi.model\\helper\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|solutionrelative:kemar.gsi.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.model\\request\\orderupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|solutionrelative:kemar.gsi.model\\request\\orderupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.repository\\repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|solutionrelative:kemar.gsi.repository\\repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.repository\\entityconfiguration\\entitiesconfiguration\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|solutionrelative:kemar.gsi.repository\\entityconfiguration\\entitiesconfiguration\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301E7421-CC21-483A-B6E0-193AFCB887C5}|Kemar.GSI.Business\\Kemar.GSI.Business.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.business\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301E7421-CC21-483A-B6E0-193AFCB887C5}|Kemar.GSI.Business\\Kemar.GSI.Business.csproj|solutionrelative:kemar.gsi.business\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.repository\\entity\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|solutionrelative:kemar.gsi.repository\\entity\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.repository\\repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|solutionrelative:kemar.gsi.repository\\repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.api\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|solutionrelative:kemar.gsi.api\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.model\\response\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|solutionrelative:kemar.gsi.model\\response\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|solutionrelative:kemar.gsi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.repository\\entity\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}|Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj|solutionrelative:kemar.gsi.repository\\entity\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5658C08-247D-44C3-A2CD-727CB5162E4F}|Kemar.GSI.API\\Kemar.GSI.API.csproj|solutionrelative:kemar.gsi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.model\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|solutionrelative:kemar.gsi.model\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|c:\\users\\manali joshi\\desktop\\assignments\\assignment\\kemar.gsi\\kemar.gsi.model\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}|Kemar.GSI.Model\\Kemar.GSI.Model.csproj|solutionrelative:kemar.gsi.model\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 534,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.API\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Kemar.GSI.API\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:27:19.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Response\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Model\\Response\\OrderResponse.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Response\\OrderResponse.cs",
+              "RelativeToolTip": "Kemar.GSI.Model\\Response\\OrderResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T10:50:00.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommonHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Helper\\Common\\CommonHelper.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.API\\Helper\\Common\\CommonHelper.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Helper\\Common\\CommonHelper.cs",
+              "RelativeToolTip": "Kemar.GSI.API\\Helper\\Common\\CommonHelper.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwD8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T05:24:53.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Request\\OrderRequest.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Model\\Request\\OrderRequest.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Request\\OrderRequest.cs",
+              "RelativeToolTip": "Kemar.GSI.Model\\Request\\OrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T10:49:27.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Kemar.GSI.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T09:35:20.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResultModel.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Helper\\Common\\ResultModel.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.API\\Helper\\Common\\ResultModel.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Helper\\Common\\ResultModel.cs",
+              "RelativeToolTip": "Kemar.GSI.API\\Helper\\Common\\ResultModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T04:49:13.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Entity\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Repository\\Entity\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Entity\\Entities\\Order.cs",
+              "RelativeToolTip": "Kemar.GSI.Repository\\Entity\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:22:23.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderItemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Request\\OrderItemRequest.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Model\\Request\\OrderItemRequest.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Request\\OrderItemRequest.cs",
+              "RelativeToolTip": "Kemar.GSI.Model\\Request\\OrderItemRequest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T11:34:30.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderItemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Response\\OrderItemResponse.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Model\\Response\\OrderItemResponse.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Response\\OrderItemResponse.cs",
+              "RelativeToolTip": "Kemar.GSI.Model\\Response\\OrderItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T11:58:55.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Helper\\MapperProfiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.API\\Helper\\MapperProfiles\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Helper\\MapperProfiles\\MappingProfile.cs",
+              "RelativeToolTip": "Kemar.GSI.API\\Helper\\MapperProfiles\\MappingProfile.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T10:53:38.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Business\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\Services\\OrderService.cs",
+              "RelativeToolTip": "Kemar.GSI.Business\\Services\\OrderService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T10:43:27.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\Interface\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Business\\Interface\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\Interface\\IOrderService.cs",
+              "RelativeToolTip": "Kemar.GSI.Business\\Interface\\IOrderService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:06:11.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.API\\Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\StockController.cs",
+              "RelativeToolTip": "Kemar.GSI.API\\Controllers\\StockController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwvzoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:33:49.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BusinessException.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Helper\\BusinessException.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Model\\Helper\\BusinessException.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Helper\\BusinessException.cs",
+              "RelativeToolTip": "Kemar.GSI.Model\\Helper\\BusinessException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T04:59:55.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Kemar.GSI.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T10:56:51.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Request\\OrderUpdateRequest.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Model\\Request\\OrderUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Request\\OrderUpdateRequest.cs",
+              "RelativeToolTip": "Kemar.GSI.Model\\Request\\OrderUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:09:16.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Repository\\Interface\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Repository\\Repository\\Interface\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Repository\\Interface\\IOrderRepository.cs",
+              "RelativeToolTip": "Kemar.GSI.Repository\\Repository\\Interface\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T10:52:24.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\EntityConfiguration\\EntitiesConfiguration\\OrderConfiguration.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Repository\\EntityConfiguration\\EntitiesConfiguration\\OrderConfiguration.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\EntityConfiguration\\EntitiesConfiguration\\OrderConfiguration.cs",
+              "RelativeToolTip": "Kemar.GSI.Repository\\EntityConfiguration\\EntitiesConfiguration\\OrderConfiguration.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T11:57:34.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StockService.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\Services\\StockService.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Business\\Services\\StockService.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\Services\\StockService.cs",
+              "RelativeToolTip": "Kemar.GSI.Business\\Services\\StockService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T09:41:18.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Repository\\StockRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Repository\\Repository\\StockRepository.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Repository\\StockRepository.cs",
+              "RelativeToolTip": "Kemar.GSI.Repository\\Repository\\StockRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T09:41:33.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Entity\\Entities\\Stock.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Repository\\Entity\\Entities\\Stock.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Entity\\Entities\\Stock.cs",
+              "RelativeToolTip": "Kemar.GSI.Repository\\Entity\\Entities\\Stock.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T06:22:28.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Entity\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Repository\\Entity\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Entity\\Entities\\Product.cs",
+              "RelativeToolTip": "Kemar.GSI.Repository\\Entity\\Entities\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T07:20:20.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.API\\Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "Kemar.GSI.API\\Controllers\\SupplierController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:02:01.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Response\\ProductResponse.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Model\\Response\\ProductResponse.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Response\\ProductResponse.cs",
+              "RelativeToolTip": "Kemar.GSI.Model\\Response\\ProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:46:38.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Kemar.GSI.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwDoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:27:34.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Model\\Request\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "Kemar.GSI.Model\\Request\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:08:46.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Program.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Program.cs",
+              "RelativeToolTip": "Kemar.GSI.API\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwCsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:16:53.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Request\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Kemar.GSI.Model\\Request\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Request\\RegisterRequest.cs",
+              "RelativeToolTip": "Kemar.GSI.Model\\Request\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:08:54.754Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

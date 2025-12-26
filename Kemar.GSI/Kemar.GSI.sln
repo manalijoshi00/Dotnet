@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kemar.GSI.API", "Kemar.GSI.API\Kemar.GSI.API.csproj", "{B5658C08-247D-44C3-A2CD-727CB5162E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kemar.GSI.Model", "Kemar.GSI.Model\Kemar.GSI.Model.csproj", "{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kemar.GSI.Business", "Kemar.GSI.Business\Kemar.GSI.Business.csproj", "{301E7421-CC21-483A-B6E0-193AFCB887C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kemar.GSI.Repository", "Kemar.GSI.Repository\Kemar.GSI.Repository.csproj", "{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5658C08-247D-44C3-A2CD-727CB5162E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5658C08-247D-44C3-A2CD-727CB5162E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5658C08-247D-44C3-A2CD-727CB5162E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5658C08-247D-44C3-A2CD-727CB5162E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DCF0AA-0860-44ED-A232-A3D0D9FA6BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301E7421-CC21-483A-B6E0-193AFCB887C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301E7421-CC21-483A-B6E0-193AFCB887C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301E7421-CC21-483A-B6E0-193AFCB887C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301E7421-CC21-483A-B6E0-193AFCB887C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605F10F7-ECD5-4FB5-9C43-AD7A4FE9176E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {746821AD-353B-4E12-BD90-F2A63252E233}
+	EndGlobalSection
+EndGlobal

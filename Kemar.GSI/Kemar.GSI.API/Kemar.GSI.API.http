@@ -1,0 +1,6 @@
+@Kemar.GSI.API_HostAddress = http://localhost:5198
+
+GET {{Kemar.GSI.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

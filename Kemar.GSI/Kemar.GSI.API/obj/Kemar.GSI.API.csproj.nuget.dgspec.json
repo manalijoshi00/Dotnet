@@ -1,0 +1,406 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Kemar.GSI.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Kemar.GSI.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Kemar.GSI.API.csproj",
+        "projectName": "Kemar.GSI.API",
+        "projectPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\Kemar.GSI.API.csproj",
+        "packagesPath": "C:\\Users\\Manali Joshi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Manali Joshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\Kemar.GSI.Business.csproj": {
+                "projectPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\Kemar.GSI.Business.csproj"
+              },
+              "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Kemar.GSI.Model.csproj": {
+                "projectPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Kemar.GSI.Model.csproj"
+              },
+              "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj": {
+                "projectPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\Kemar.GSI.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\Kemar.GSI.Business.csproj",
+        "projectName": "Kemar.GSI.Business",
+        "projectPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\Kemar.GSI.Business.csproj",
+        "packagesPath": "C:\\Users\\Manali Joshi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Manali Joshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Kemar.GSI.Model.csproj": {
+                "projectPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Kemar.GSI.Model.csproj"
+              },
+              "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj": {
+                "projectPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Kemar.GSI.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Kemar.GSI.Model.csproj",
+        "projectName": "Kemar.GSI.Model",
+        "projectPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Kemar.GSI.Model.csproj",
+        "packagesPath": "C:\\Users\\Manali Joshi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Manali Joshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj",
+        "projectName": "Kemar.GSI.Repository",
+        "projectPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\Kemar.GSI.Repository.csproj",
+        "packagesPath": "C:\\Users\\Manali Joshi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Manali Joshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Kemar.GSI.Model.csproj": {
+                "projectPath": "C:\\Users\\Manali Joshi\\Desktop\\Assignments\\Assignment\\Kemar.GSI\\Kemar.GSI.Model\\Kemar.GSI.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
