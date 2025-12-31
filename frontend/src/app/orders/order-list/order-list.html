@@ -1,0 +1,49 @@
+<div class="header">
+  <h2>Order Management</h2>
+  <button (click)="openCreate()">+ Create Order</button>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Order ID</th>
+      <th>Products</th>
+      <th>Quantity</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let o of orders">
+      <td>{{ o.orderId }}</td>
+      <td>
+        <div *ngFor="let i of o.items">
+          {{ i.productName }}
+        </div>
+      </td>
+      <td>
+        <div *ngFor="let i of o.items">
+          {{ i.quantity }}
+        </div>
+      </td>
+      <td>{{ o.createdAt | date:'short' }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- CREATE ORDER MODAL -->
+<div class="modal" *ngIf="showCreateModal">
+  <div class="modal-content">
+    <h3>Create Order</h3>
+
+    <form [formGroup]="orderForm" (ngSubmit)="createOrder()">
+      <input formControlName="productId" placeholder="Product ID" />
+      <input formControlName="quantity" placeholder="Quantity" />
+
+      <div class="actions">
+        <button type="submit">Create</button>
+        <button type="button" (click)="close()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>

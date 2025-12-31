@@ -1,0 +1,44 @@
+<div class="layout">
+
+  <aside class="sidebar">
+    <h2 class="logo">Inventory</h2>
+    <p class="role">Role: {{ role }}</p> 
+
+    <p class="role">Logged in as <b>{{ role }}</b></p>
+
+    <ng-container *ngIf="role === 'Admin'">
+      <!-- <a routerLink="users" routerLinkActive="active">👤 Users</a>  -->
+      <a routerLink="products" routerLinkActive="active">📦 Products</a>
+      <a routerLink="categories" routerLinkActive="active">🏷 Categories</a>
+      <a routerLink="suppliers" routerLinkActive="active">🚚 Suppliers</a>
+      <a routerLink="stock" routerLinkActive="active">📊 Stock</a>
+      <a routerLink="orders" routerLinkActive="active">🛒 Orders</a>
+      <a routerLink="reports" routerLinkActive="active">📈 Reports</a>
+    </ng-container>
+
+    <ng-container *ngIf="role === 'Manager'">
+      <a routerLink="products" routerLinkActive="active">📦 Products</a>
+      <a routerLink="stock" routerLinkActive="active">📊 Stock</a>
+      <a routerLink="orders" routerLinkActive="active">🛒 Orders</a>
+    </ng-container>
+
+    <ng-container *ngIf="role === 'User'">
+      <a routerLink="products" routerLinkActive="active">📦 Products</a>
+      <a routerLink="orders" routerLinkActive="active">🛒 My Orders</a>
+    </ng-container>
+
+    <button class="logout-btn" (click)="logout()">Logout</button>
+  </aside>
+
+  <main class="content">
+    <header class="topbar">
+      <h3>Dashboard</h3>
+    </header>
+
+    <section class="page">
+      <router-outlet></router-outlet>
+    </section>
+  </main>
+
+</div>
+

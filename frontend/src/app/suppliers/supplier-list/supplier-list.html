@@ -1,0 +1,74 @@
+<div class="page-header">
+  <h2>Supplier Management</h2>
+  <button class="add-btn" (click)="openAdd()">+ Add Supplier</button>
+</div>
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Contact Person</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th style="width: 140px">Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let s of suppliers">
+      <td>{{ s.supplierId }}</td>
+      <td>{{ s.name }}</td>
+      <td>{{ s.contactPerson || '-' }}</td>
+      <td>{{ s.mobile || '-' }}</td>
+      <td>{{ s.email || '-' }}</td>
+      <td class="actions">
+        <button class="edit" (click)="openEdit(s)">Edit</button>
+        <button class="delete" (click)="delete(s.supplierId)">Delete</button>
+      </td>
+    </tr>
+
+    <tr *ngIf="suppliers.length === 0">
+      <td colspan="6" class="no-data">No suppliers found</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="modal-backdrop" *ngIf="showModal">
+  <div class="modal-box">
+    <h3>{{ isEdit ? 'Edit Supplier' : 'Add Supplier' }}</h3>
+
+    <form [formGroup]="supplierForm" (ngSubmit)="submit()">
+
+      <div class="form-group">
+        <label>Supplier Name</label>
+        <input type="text" formControlName="name" />
+      </div>
+
+      <div class="form-group">
+        <label>Contact Person</label>
+        <input type="text" formControlName="contactPerson" />
+      </div>
+
+      <div class="form-group">
+        <label>Phone</label>
+        <input type="text" formControlName="phone" />
+      </div>
+
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" formControlName="email" />
+      </div>
+
+      <div class="modal-actions">
+        <button type="submit" class="save">
+          {{ isEdit ? 'Update' : 'Save' }}
+        </button>
+        <button type="button" class="cancel" (click)="closeModal()">
+          Cancel
+        </button>
+      </div>
+
+    </form>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { Router, RouterModule } from '@angular/router';
+import { AuthService } from '../auth.service';
+
+@Component({
+  selector: 'app-register',
+  standalone: true,
+  imports: [CommonModule, ReactiveFormsModule, RouterModule],
+  templateUrl: './register.html',
+  styleUrl: './register.css',
+})
+export class Register {
+
+  registerForm: FormGroup;
+
+  constructor(
+    private fb: FormBuilder,
+    private authService: AuthService,
+    private router: Router
+  ) {
+    this.registerForm = this.fb.group({
+      username: ['', Validators.required],
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', Validators.required],
+      role: ['User', Validators.required] // Admin / Manager / User
+    });
+  }
+
+  onSubmit() {
+    if (this.registerForm.invalid) return;
+
+    this.authService.register(this.registerForm.value).subscribe({
+      next: () => {
+        alert('Registration successful. Please login.');
+        this.router.navigate(['/login']);
+      }
+    });
+  }
+}
