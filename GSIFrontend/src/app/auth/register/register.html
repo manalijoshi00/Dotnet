@@ -1,0 +1,85 @@
+<!-- <div class="card">
+  <h2>Register</h2>
+
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <input type="text" placeholder="Username" formControlName="username" />
+    <input type="text" placeholder="Email" formControlName="email" />
+    <input type="password" placeholder="Password" formControlName="password" />
+
+    <select formControlName="role">
+      <option value="Admin">Admin</option>
+      <option value="Manager">Manager</option>
+      <option value="User">User</option>
+    </select>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <p class="link">
+    Already registered?
+    <a routerLink="/login">Login</a>
+  </p>
+</div> -->
+
+<div class="login-wrapper">
+  <div class="login-card">
+
+    <!-- Header -->
+    <div class="login-header">
+      <div class="logo">🛒</div>
+      <h2>Create Account</h2>
+      <p>Register for Grocery Inventory System</p>
+    </div>
+
+    <!-- Form -->
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+
+      <div class="input-group">
+        <span class="icon">👤</span>
+        <input
+          type="text"
+          placeholder="Username"
+          formControlName="username"
+        />
+      </div>
+
+      <div class="input-group">
+        <span class="icon">📧</span>
+        <input
+          type="email"
+          placeholder="Email"
+          formControlName="email"
+        />
+      </div>
+
+      <div class="input-group">
+        <span class="icon">🔒</span>
+        <input
+          type="password"
+          placeholder="Password"
+          formControlName="password"
+        />
+      </div>
+
+      <div class="input-group">
+        <span class="icon">🎭</span>
+        <select formControlName="role">
+          <option value="Admin">Admin</option>
+          <option value="Manager">Manager</option>
+          <option value="User">User</option>
+        </select>
+      </div>
+
+      <button type="submit" class="login-btn">
+        Register
+      </button>
+    </form>
+
+    <!-- Footer -->
+    <div class="login-footer">
+      <span>Already have an account?</span>
+      <a routerLink="/login">Login</a>
+    </div>
+
+  </div>
+</div>

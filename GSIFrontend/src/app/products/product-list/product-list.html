@@ -1,0 +1,83 @@
+<div class="page-header">
+  <h2>Products</h2>
+  <button class="add-btn" (click)="openAdd()">+ Add Product</button>
+</div>
+
+<div class="table-card">
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Barcode</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Supplier</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let p of products">
+        <td>{{ p.productId }}</td>
+        <td>{{ p.name }}</td>
+        <td>{{ p.barcode }}</td>
+        <td>₹ {{ p.price }}</td>
+        <td>{{ p.categoryName }}</td>
+        <td>{{ p.supplierName }}</td>
+        <td class="actions-col">
+          <button class="edit" (click)="openEdit(p)">Edit</button>
+          <button class="delete" (click)="delete(p.productId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="modal" *ngIf="showModal">
+  <div class="modal-content">
+
+    <div class="modal-header">
+      <h3>{{ isEdit ? 'Edit Product' : 'Add Product' }}</h3>
+      <span class="close" (click)="closeModal()">✕</span>
+    </div>
+
+    <form [formGroup]="productForm" (ngSubmit)="submit()">
+
+      <div class="form-grid">
+        <div>
+          <label>Product Name</label>
+          <input formControlName="name" placeholder="Enter product name" />
+        </div>
+
+        <div>
+          <label>Barcode</label>
+          <input formControlName="barcode" placeholder="Barcode number" />
+        </div>
+
+        <div>
+          <label>Price (₹)</label>
+          <input type="number" formControlName="price" />
+        </div>
+
+        <div>
+          <label>Category ID</label>
+          <input type="number" formControlName="categoryId" />
+        </div>
+
+        <div>
+          <label>Supplier ID</label>
+          <input type="number" formControlName="supplierId" />
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <button type="submit" class="save">
+          {{ isEdit ? 'Update' : 'Save' }}
+        </button>
+        <button type="button" class="cancel" (click)="closeModal()">Cancel</button>
+      </div>
+
+    </form>
+  </div>
+</div>

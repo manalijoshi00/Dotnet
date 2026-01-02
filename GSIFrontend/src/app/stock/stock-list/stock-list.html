@@ -1,0 +1,213 @@
+<!-- <div class="header">
+  <h2>Stock Management</h2>
+  <div>
+    <button (click)="openAdd()">+ Add Stock</button>
+    <button class="reduce" (click)="openReduce()">Reduce FIFO</button>
+  </div>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>StockId</th>
+      <th>Product</th>
+      <th>Quantity</th>
+      <th>Purchase Price</th>
+      <th>StockDate</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let s of stocks">
+      <td>{{s.stockId}}</td>
+      <td>{{ s.productName }}</td>
+      <td>{{ s.quantity }}</td>
+      <td>₹ {{ s.purchasePrice }}</td>
+      <td>{{ s.createdAt | date:'short' }}</td>
+      <td>
+        <button class="delete" (click)="delete(s.stockId)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="modal" *ngIf="showAddModal">
+  <div class="modal-content">
+    <h3>Add Stock</h3>
+
+    <form [formGroup]="addForm" (ngSubmit)="addStock()">
+      <input formControlName="productId" placeholder="Product ID" />
+      <input formControlName="quantity" placeholder="Quantity" />
+      <input formControlName="purchasePrice" placeholder="Purchase Price" />
+
+      <div class="actions">
+        <button type="submit">Save</button>
+        <button type="button" (click)="close()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="modal" *ngIf="showReduceModal">
+  <div class="modal-content">
+    <h3>Reduce Stock (FIFO)</h3>
+
+    <form [formGroup]="reduceForm" (ngSubmit)="reduceStock()">
+      <input formControlName="productId" placeholder="Product ID" />
+      <input formControlName="quantity" placeholder="Quantity" />
+
+      <div class="actions">
+        <button type="submit">Reduce</button>
+        <button type="button" (click)="close()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div> -->
+
+<!-- <div class="page">
+
+  <div class="header">
+    <h2>📦 Stock Management</h2>
+    <div>
+      <button class="primary" (click)="openAdd()">+ Add Stock</button>
+      <button class="secondary" (click)="openReduce()">Reduce FIFO</button>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Purchase Price</th>
+        <th>Stock Date</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let s of stocks">
+        <td>{{ s.stockId }}</td>
+        <td>{{ s.productName || s.productId }}</td>
+        <td>{{ s.quantity }}</td>
+        <td>₹ {{ s.purchasePrice }}</td>
+        <td>{{ s.stockDate | date:'mediumDate' }}</td>
+        <td>
+          <button class="danger" (click)="delete(s.stockId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="modal" *ngIf="showAddModal">
+  <div class="modal-box">
+    <h3>Add Stock</h3>
+
+    <form [formGroup]="addForm" (ngSubmit)="addStock()">
+      <input type="number" placeholder="Product ID" formControlName="productId">
+      <input type="number" placeholder="Quantity" formControlName="quantity">
+      <input type="number" placeholder="Purchase Price" formControlName="purchasePrice">
+
+      <input type="date" formControlName="stockDate">
+
+      <div class="actions">
+        <button type="submit" class="primary">Save</button>
+        <button type="button" (click)="close()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="modal" *ngIf="showReduceModal">
+  <div class="modal-box">
+    <h3>Reduce Stock (FIFO)</h3>
+
+    <form [formGroup]="reduceForm" (ngSubmit)="reduceStock()">
+      <input type="number" placeholder="Product ID" formControlName="productId">
+      <input type="number" placeholder="Quantity" formControlName="quantity">
+
+      <div class="actions">
+        <button type="submit" class="secondary">Reduce</button>
+        <button type="button" (click)="close()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div> -->
+
+<div class="header">
+  <h2>Stock Management</h2>
+
+  <div class="header-actions">
+    <button class="primary" (click)="openAdd()">+ Add Stock</button>
+    <button class="secondary" (click)="openReduce()">Reduce FIFO</button>
+  </div>
+</div>
+
+<table class="styled-table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Product</th>
+      <th>Quantity</th>
+      <th>Purchase Price</th>
+      <th>Stock Date</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let s of stocks">
+      <td>{{ s.stockId }}</td>
+      <td>{{ s.productName || s.productId }}</td>
+      <td>{{ s.quantity }}</td>
+      <td>₹ {{ s.purchasePrice }}</td>
+      <td>{{ s.stockDate | date:'dd-MM-yyyy' }}</td>
+      <td>
+        <button class="danger" (click)="delete(s.stockId)">Delete</button>
+      </td>
+    </tr>
+
+    <tr *ngIf="stocks.length === 0">
+      <td colspan="6" class="no-data">No stock records found</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ADD STOCK MODAL -->
+<div class="modal" *ngIf="showAddModal">
+  <div class="modal-content">
+    <h3>Add Stock</h3>
+
+    <form [formGroup]="addForm" (ngSubmit)="addStock()">
+      <input type="number" placeholder="Product ID" formControlName="productId">
+      <input type="number" placeholder="Quantity" formControlName="quantity">
+      <input type="number" placeholder="Purchase Price" formControlName="purchasePrice">
+      <input type="date" formControlName="stockDate">
+
+      <div class="actions">
+        <button class="primary" type="submit">Save</button>
+        <button type="button" (click)="close()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- REDUCE FIFO MODAL -->
+<div class="modal" *ngIf="showReduceModal">
+  <div class="modal-content">
+    <h3>Reduce Stock (FIFO)</h3>
+
+    <form [formGroup]="reduceForm" (ngSubmit)="reduceStock()">
+      <input type="number" placeholder="Product ID" formControlName="productId">
+      <input type="number" placeholder="Quantity" formControlName="quantity">
+
+      <div class="actions">
+        <button class="secondary" type="submit">Reduce</button>
+        <button type="button" (click)="close()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>

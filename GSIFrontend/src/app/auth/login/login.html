@@ -1,0 +1,84 @@
+<!-- <div class="card">
+  <h2>Login</h2>
+
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+    <input type="text" placeholder="Username" formControlName="username">
+    <input type="password" placeholder="Password" formControlName="password">
+
+    <button type="submit">Login</button>
+
+    <p class="error" *ngIf="error">{{ error }}</p>
+  </form>
+
+  <p class="link">
+    Don’t have an account?
+    <a routerLink="/register">Register</a>
+  </p>
+</div>
+
+<div class="card">
+  <h2>Login</h2>
+
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <input type="text" placeholder="Username" formControlName="username" />
+    <input type="password" placeholder="Password" formControlName="password" />
+
+    <button type="submit">Login</button>
+
+    <p class="error" *ngIf="error">{{ error }}</p>
+  </form>
+
+  <p class="link">
+    Don’t have an account?
+    <a routerLink="/register">Register here</a>
+  </p>
+</div>
+ -->
+
+ <div class="login-wrapper">
+  <div class="login-card">
+
+    <!-- Header -->
+    <div class="login-header">
+      <div class="logo">🛒</div>
+      <h2>Welcome Back</h2>
+      <p>Login to your Grocery Inventory account</p>
+    </div>
+
+    <!-- Form -->
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+      <div class="input-group">
+        <span class="icon">👤</span>
+        <input
+          type="text"
+          placeholder="Username"
+          formControlName="username"
+        />
+      </div>
+
+      <div class="input-group">
+        <span class="icon">🔒</span>
+        <input
+          type="password"
+          placeholder="Password"
+          formControlName="password"
+        />
+      </div>
+
+      <button type="submit" class="login-btn">
+        Login
+      </button>
+
+      <p class="error" *ngIf="error">{{ error }}</p>
+    </form>
+
+    <!-- Footer -->
+    <div class="login-footer">
+      <span>Don’t have an account?</span>
+      <a routerLink="/register">Create account</a>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,60 @@
+<div class="page-header">
+  <h2>Category Management</h2>
+  <button class="add-btn" (click)="openAdd()">+ Add Category</button>
+</div>
+
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Category Name</th>
+      <th>Description</th>
+      <th style="width: 140px">Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let c of categories">
+      <td>{{ c.categoryId }}</td>
+      <td>{{ c.name }}</td>
+      <td>{{ c.description || '-' }}</td>
+      <td class="actions">
+        <button class="edit" (click)="openEdit(c)">Edit</button>
+        <button class="delete" (click)="delete(c.categoryId)">Delete</button>
+      </td>
+    </tr>
+
+    <tr *ngIf="categories.length === 0">
+      <td colspan="4" class="no-data">No categories found</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="modal-backdrop" *ngIf="showModal">
+  <div class="modal-box">
+    <h3>{{ isEdit ? 'Edit Category' : 'Add Category' }}</h3>
+
+    <form [formGroup]="categoryForm" (ngSubmit)="submit()">
+
+      <div class="form-group">
+        <label>Category Name</label>
+        <input type="text" formControlName="name" />
+      </div>
+
+      <div class="form-group">
+        <label>Description</label>
+        <textarea formControlName="description"></textarea>
+      </div>
+
+      <div class="modal-actions">
+        <button type="submit" class="save">
+          {{ isEdit ? 'Update' : 'Save' }}
+        </button>
+        <button type="button" class="cancel" (click)="closeModal()">
+          Cancel
+        </button>
+      </div>
+
+    </form>
+  </div>
+</div>

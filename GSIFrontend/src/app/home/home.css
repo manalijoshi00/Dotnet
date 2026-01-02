@@ -1,0 +1,156 @@
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: white;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  font-size: 26px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.login {
+  background: #2ecc71;
+  color: white;
+}
+
+.register {
+  background: #f1c40f;
+  margin-left: 10px;
+}
+
+.primary {
+  background: #185a9d;
+  color: white;
+}
+
+.outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 40px;
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  color: white;
+}
+
+.hero-content {
+  max-width: 550px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.hero-image img {
+  width: 320px;
+}
+
+.features {
+  padding: 70px 40px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.feature-card span {
+  font-size: 34px;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background: #f4f6f8;
+}
+
+.stat h3 {
+  font-size: 32px;
+  color: #185a9d;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-top: 30px;
+  }
+}
